@@ -24,7 +24,7 @@ for i in tqdm(files_list):
     if not os.path.exists(file_new_name):
         shutil.copyfile(file_old_name,file_new_name) #将相机中的文件拷贝到电脑文件夹中
 
-files_path = "E:/PRIVATE/M4ROOT/CLIP"#相机连接到本电脑视频存储文件路径
+files_path = "E:/PRIVATE/M4ROOT/CLIP/"#相机连接到本电脑视频存储文件路径
 Tofiles_path = "相机照片/"#视频需要被存储在本电脑文件夹路径
 
 files_list = os.listdir(files_path)
