@@ -8,8 +8,8 @@ def fileTime(file):
     t = time.localtime(os.path.getmtime(file))
     return time.strftime("%Y-%m-%d",t)
 
-files_path = "E:/DCIM/100MSDCF/"
-Tofiles_path = "相机照片/"
+files_path = "E:/DCIM/100MSDCF/"  # 相机连接到本电脑存储文件路径
+Tofiles_path = "相机照片/" #照片需要被存储在本电脑文件夹路径
 
 files_list = os.listdir(files_path)
 
