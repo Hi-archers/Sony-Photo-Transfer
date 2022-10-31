@@ -22,4 +22,4 @@ for i in tqdm(files_list):
     file_new_name = Tofiles_path + date_name +'/' + i
     print((file_old_name,file_new_name))
     if not os.path.exists(file_new_name):
-        shutil.copyfile(file_old_name,file_new_name) 
+        shutil.copyfile(file_old_name,file_new_name) #将相机中的文件拷贝到电脑文件夹中
